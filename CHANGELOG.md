@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.14.3](https://github.com/nuxt/ui/compare/v2.14.2...v2.14.3) (2024-03-20)
+
+
+### Features
+
+* **Alert:** add `icon` & `avatar` slots ([#1401](https://github.com/nuxt/ui/issues/1401)) ([cee3e12](https://github.com/nuxt/ui/commit/cee3e126a472735c0e484de315868bb28287164f))
+
+
+### Bug Fixes
+
+* **ButtonGroup:** nested group elements ([#1530](https://github.com/nuxt/ui/issues/1530)) ([7658211](https://github.com/nuxt/ui/commit/765821153753d1a49276421511224336aebcdd2f))
+* **Carousel:** add tab-based ARIA roles ([#1516](https://github.com/nuxt/ui/issues/1516)) ([e736eca](https://github.com/nuxt/ui/commit/e736ecafff59f9d4eb88b366ef1e9d26449b8ca3))
+* **Checkbox:** bind `data-n-ids` to root element ([#1495](https://github.com/nuxt/ui/issues/1495)) ([a2b8b70](https://github.com/nuxt/ui/commit/a2b8b700df6ad0907a5d4d622d178d1345b55b83))
+* **InputMenu:** trigger alignement on safari ([f4a48f6](https://github.com/nuxt/ui/commit/f4a48f6016ede664e4f46741e7811b0dbe0acfbe)), closes [#1505](https://github.com/nuxt/ui/issues/1505)
+* **Popover/Dropdown:** use `[@touchstart](https://github.com/touchstart).passive` instead of `[@touchstart](https://github.com/touchstart).prevent` ([#1520](https://github.com/nuxt/ui/issues/1520)) ([a563d8f](https://github.com/nuxt/ui/commit/a563d8fed44535107080fee094995d87ca5dc2b6))
+* **SelectMenu:** `filteredOptions` might be undefined ([2e42930](https://github.com/nuxt/ui/commit/2e42930214c7d3f0045e83ba495c390931cdbad1))
+
 ## [2.14.2](https://github.com/nuxt/ui/compare/v2.14.1...v2.14.2) (2024-03-05)
 
 
